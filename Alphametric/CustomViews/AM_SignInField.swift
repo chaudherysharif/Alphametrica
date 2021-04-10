@@ -1,5 +1,5 @@
 //
-//  AM_SigUpFiled.swift
+//  AM_SignInField.swift
 //  Alphametric
 //
 //  Created by mohsin sharif on 2021/04/10.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-@IBDesignable class AM_SigUpFiled: UIView, UITextFieldDelegate {
+class AM_SignInField: UIView, UITextFieldDelegate{
 
     var view: UIView!
     
-    
+    @IBOutlet weak var iconImage: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
@@ -29,6 +29,14 @@ import UIKit
         }
     }
     
+    @IBInspectable var iconImageValue: UIImage? {
+        get{
+            return iconImage.image
+        }
+        set(fieldValue){
+            iconImage.image = fieldValue
+        }
+    }
     
     @IBInspectable var placeHolderString: String?{
         get{
@@ -125,5 +133,3 @@ import UIKit
     }
 
 }
-
-

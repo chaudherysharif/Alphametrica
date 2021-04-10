@@ -6,10 +6,9 @@
 //
 
 import UIKit
-
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
 
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -30,7 +29,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    func changeRootViewController(isLoggedIn : Bool){
+        var  window = UIApplication.shared.keyWindow
 
+        let transition = CATransition()
+        transition.duration = 0.5
+        transition.type = CATransitionType(rawValue: "flip")
+        transition.subtype = CATransitionSubtype.fromLeft
+        if isLoggedIn {
+            let homeController = AppStoryboard.Welcome.instance.instantiateViewController(withIdentifier: "WelcomeController")
+            window?.rootViewController = homeController
+
+        }else {
+            let loginController = AppStoryboard.Main.instance.instantiateViewController(withIdentifier: "ViewController")
+            let navigationcontroller = UINavigationController(rootViewController: loginController)
+            navigationcontroller.navigationBar.isHidden = true
+            window?.rootViewController = nil;
+            window?.rootViewController = loginController
+        }
+        
+    }
 
 }
 

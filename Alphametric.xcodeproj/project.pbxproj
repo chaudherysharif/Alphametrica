@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3CA8DB2621E36400C18620 /* AM_SignInField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3CA8DA2621E36400C18620 /* AM_SignInField.xib */; };
+		7E3CA8DE2621E37F00C18620 /* AM_SignInField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CA8DD2621E37F00C18620 /* AM_SignInField.swift */; };
+		7E3CA8E12621E9EB00C18620 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3CA8E02621E9EB00C18620 /* Lato-Regular.ttf */; };
+		7E3CA8E42621EA1F00C18620 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3CA8E32621EA1F00C18620 /* Lato-Bold.ttf */; };
+		7E3CA8E72621EA2500C18620 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3CA8E62621EA2500C18620 /* Merriweather-Regular.ttf */; };
 		7E5B94A326209ED2009F9240 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94A226209ED2009F9240 /* AppDelegate.swift */; };
 		7E5B94A526209ED2009F9240 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94A426209ED2009F9240 /* SceneDelegate.swift */; };
 		7E5B94A726209ED2009F9240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94A626209ED2009F9240 /* ViewController.swift */; };
 		7E5B94AA26209ED2009F9240 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B94A826209ED2009F9240 /* Main.storyboard */; };
 		7E5B94AC26209ED6009F9240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B94AB26209ED6009F9240 /* Assets.xcassets */; };
 		7E5B94AF26209ED6009F9240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B94AD26209ED6009F9240 /* LaunchScreen.storyboard */; };
+		7E5B94BA2620A1CF009F9240 /* Lato in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B94B92620A1CF009F9240 /* Lato */; };
+		7E5B94BD2620A1E8009F9240 /* Merriweather in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B94BC2620A1E8009F9240 /* Merriweather */; };
+		7E5B94E72620AC60009F9240 /* AM_Button_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94E62620AC60009F9240 /* AM_Button_Ext.swift */; };
+		7E5B94EF2620AFE7009F9240 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94EE2620AFE7009F9240 /* SignUpController.swift */; };
+		7E5B94F22620AFF4009F9240 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94F12620AFF4009F9240 /* SignInController.swift */; };
+		7E5B94F52620B12D009F9240 /* AM_Color_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94F42620B12C009F9240 /* AM_Color_Ext.swift */; };
+		7E5B94F92620B326009F9240 /* AM_SigUpFiled.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B94F82620B326009F9240 /* AM_SigUpFiled.xib */; };
+		7E5B94FC2620B5A9009F9240 /* AM_SigUpFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94FB2620B5A9009F9240 /* AM_SigUpFiled.swift */; };
+		7E5B94FF26212D9E009F9240 /* AM_Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B94FE26212D9E009F9240 /* AM_Enum.swift */; };
+		7E71E91826218C9C00D34593 /* AM_GradientView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E71E91726218C9C00D34593 /* AM_GradientView.xib */; };
+		7E71E91B26218CB300D34593 /* AM_GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E71E91A26218CB300D34593 /* AM_GradientView.swift */; };
+		7E936EB526219ED300D4CBBE /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E936EB426219ED300D4CBBE /* WelcomeController.swift */; };
+		7E936EB826219F3100D4CBBE /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E936EB726219F3100D4CBBE /* Welcome.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E3CA8DA2621E36400C18620 /* AM_SignInField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AM_SignInField.xib; sourceTree = "<group>"; };
+		7E3CA8DD2621E37F00C18620 /* AM_SignInField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AM_SignInField.swift; sourceTree = "<group>"; };
+		7E3CA8E02621E9EB00C18620 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		7E3CA8E32621EA1F00C18620 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		7E3CA8E62621EA2500C18620 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
 		7E5B949F26209ED2009F9240 /* Alphametric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alphametric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5B94A226209ED2009F9240 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E5B94A426209ED2009F9240 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,19 @@
 		7E5B94AB26209ED6009F9240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5B94AE26209ED6009F9240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E5B94B026209ED6009F9240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5B94B92620A1CF009F9240 /* Lato */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lato; sourceTree = "<group>"; };
+		7E5B94BC2620A1E8009F9240 /* Merriweather */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Merriweather; sourceTree = "<group>"; };
+		7E5B94E62620AC60009F9240 /* AM_Button_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AM_Button_Ext.swift; sourceTree = "<group>"; };
+		7E5B94EE2620AFE7009F9240 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		7E5B94F12620AFF4009F9240 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		7E5B94F42620B12C009F9240 /* AM_Color_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AM_Color_Ext.swift; sourceTree = "<group>"; };
+		7E5B94F82620B326009F9240 /* AM_SigUpFiled.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AM_SigUpFiled.xib; sourceTree = "<group>"; };
+		7E5B94FB2620B5A9009F9240 /* AM_SigUpFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AM_SigUpFiled.swift; sourceTree = "<group>"; };
+		7E5B94FE26212D9E009F9240 /* AM_Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AM_Enum.swift; sourceTree = "<group>"; };
+		7E71E91726218C9C00D34593 /* AM_GradientView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AM_GradientView.xib; sourceTree = "<group>"; };
+		7E71E91A26218CB300D34593 /* AM_GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AM_GradientView.swift; sourceTree = "<group>"; };
+		7E936EB426219ED300D4CBBE /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		7E936EB726219F3100D4CBBE /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +76,9 @@
 		7E5B949626209ED2009F9240 = {
 			isa = PBXGroup;
 			children = (
+				7E3CA8E62621EA2500C18620 /* Merriweather-Regular.ttf */,
+				7E3CA8E32621EA1F00C18620 /* Lato-Bold.ttf */,
+				7E3CA8E02621E9EB00C18620 /* Lato-Regular.ttf */,
 				7E5B94A126209ED2009F9240 /* Alphametric */,
 				7E5B94A026209ED2009F9240 /* Products */,
 			);
@@ -56,15 +95,62 @@
 		7E5B94A126209ED2009F9240 /* Alphametric */ = {
 			isa = PBXGroup;
 			children = (
+				7E5B94F72620B2D8009F9240 /* CustomViews */,
+				7E5B94ED2620AFCF009F9240 /* Controllers */,
+				7E5B94E52620AC2F009F9240 /* Extensions */,
+				7E5B94B82620A1B0009F9240 /* Fonts */,
 				7E5B94A226209ED2009F9240 /* AppDelegate.swift */,
 				7E5B94A426209ED2009F9240 /* SceneDelegate.swift */,
-				7E5B94A626209ED2009F9240 /* ViewController.swift */,
 				7E5B94A826209ED2009F9240 /* Main.storyboard */,
 				7E5B94AB26209ED6009F9240 /* Assets.xcassets */,
 				7E5B94AD26209ED6009F9240 /* LaunchScreen.storyboard */,
 				7E5B94B026209ED6009F9240 /* Info.plist */,
+				7E936EB726219F3100D4CBBE /* Welcome.storyboard */,
 			);
 			path = Alphametric;
+			sourceTree = "<group>";
+		};
+		7E5B94B82620A1B0009F9240 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B94BC2620A1E8009F9240 /* Merriweather */,
+				7E5B94B92620A1CF009F9240 /* Lato */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7E5B94E52620AC2F009F9240 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B94E62620AC60009F9240 /* AM_Button_Ext.swift */,
+				7E5B94F42620B12C009F9240 /* AM_Color_Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7E5B94ED2620AFCF009F9240 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B94A626209ED2009F9240 /* ViewController.swift */,
+				7E5B94EE2620AFE7009F9240 /* SignUpController.swift */,
+				7E5B94F12620AFF4009F9240 /* SignInController.swift */,
+				7E5B94FE26212D9E009F9240 /* AM_Enum.swift */,
+				7E936EB426219ED300D4CBBE /* WelcomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7E5B94F72620B2D8009F9240 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B94F82620B326009F9240 /* AM_SigUpFiled.xib */,
+				7E5B94FB2620B5A9009F9240 /* AM_SigUpFiled.swift */,
+				7E71E91726218C9C00D34593 /* AM_GradientView.xib */,
+				7E71E91A26218CB300D34593 /* AM_GradientView.swift */,
+				7E3CA8DA2621E36400C18620 /* AM_SignInField.xib */,
+				7E3CA8DD2621E37F00C18620 /* AM_SignInField.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +210,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3CA8E42621EA1F00C18620 /* Lato-Bold.ttf in Resources */,
+				7E71E91826218C9C00D34593 /* AM_GradientView.xib in Resources */,
+				7E5B94BA2620A1CF009F9240 /* Lato in Resources */,
 				7E5B94AF26209ED6009F9240 /* LaunchScreen.storyboard in Resources */,
 				7E5B94AC26209ED6009F9240 /* Assets.xcassets in Resources */,
+				7E5B94F92620B326009F9240 /* AM_SigUpFiled.xib in Resources */,
+				7E3CA8DB2621E36400C18620 /* AM_SignInField.xib in Resources */,
+				7E936EB826219F3100D4CBBE /* Welcome.storyboard in Resources */,
+				7E3CA8E72621EA2500C18620 /* Merriweather-Regular.ttf in Resources */,
+				7E5B94BD2620A1E8009F9240 /* Merriweather in Resources */,
 				7E5B94AA26209ED2009F9240 /* Main.storyboard in Resources */,
+				7E3CA8E12621E9EB00C18620 /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +232,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5B94EF2620AFE7009F9240 /* SignUpController.swift in Sources */,
 				7E5B94A726209ED2009F9240 /* ViewController.swift in Sources */,
+				7E5B94F52620B12D009F9240 /* AM_Color_Ext.swift in Sources */,
 				7E5B94A326209ED2009F9240 /* AppDelegate.swift in Sources */,
+				7E3CA8DE2621E37F00C18620 /* AM_SignInField.swift in Sources */,
+				7E71E91B26218CB300D34593 /* AM_GradientView.swift in Sources */,
+				7E936EB526219ED300D4CBBE /* WelcomeController.swift in Sources */,
+				7E5B94F22620AFF4009F9240 /* SignInController.swift in Sources */,
 				7E5B94A526209ED2009F9240 /* SceneDelegate.swift in Sources */,
+				7E5B94E72620AC60009F9240 /* AM_Button_Ext.swift in Sources */,
+				7E5B94FC2620B5A9009F9240 /* AM_SigUpFiled.swift in Sources */,
+				7E5B94FF26212D9E009F9240 /* AM_Enum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,6 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Alphametric/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +411,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Alphametric/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
